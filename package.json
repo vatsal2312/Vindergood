@@ -1,0 +1,45 @@
+{
+  "name": "pace-art-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bscTestnet:deploy": "hardhat deploy --network bscTestnet",
+    "bscTestnet:verify": "hardhat --network bscTestnet etherscan-verify --solc-input",
+    "rinkebyTestnet:deploy": "hardhat deploy --network rinkebyTestnet",
+    "rinkebyTestnet:verify": "hardhat --network rinkebyTestnet etherscan-verify --solc-input"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^3.4.2",
+    "@remix-project/remixd": "^0.4.2",
+    "@uniswap/lib": "1.1.1",
+    "@uniswap/v2-core": "1.0.0",
+    "abi-decoder": "^2.4.0",
+    "ethers": "^5.4.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^3.4.0",
+    "@typechain/ethers-v5": "^4.0.0",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.0",
+    "hardhat": "^2.3.3",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-deploy": "^0.7.0-beta.44",
+    "hardhat-gas-reporter": "^1.0.4",
+    "hardhat-log-remover": "^2.0.2",
+    "hardhat-typechain": "^0.3.3",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^10.0.0",
+    "typechain": "^4.0.0",
+    "typescript": "^4.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
