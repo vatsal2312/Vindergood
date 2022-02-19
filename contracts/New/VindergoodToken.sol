@@ -8,8 +8,8 @@ pragma abicoder v2;
 
 // File: @openzeppelin/contracts/security/ReentrancyGuard.sol
 
-import "./libraries/LibPart.sol";
-import "./royalties/RoyaltiesV2Impl.sol";
+import "./LibPart.sol";
+import "./RoyaltiesV2Impl.sol";
 
 /**
  * @dev Contract module that helps prevent reentrant calls to a function.
